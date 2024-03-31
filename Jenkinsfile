@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker build -t yuetl/test:0.1'
+                sh 'docker build -t yuetl/test:0.1.0 .'
             }
         }
     }
